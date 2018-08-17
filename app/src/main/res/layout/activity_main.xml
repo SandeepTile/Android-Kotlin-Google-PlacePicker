@@ -14,12 +14,18 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
-            android:id="@+id/tv1"/>
+            android:id="@+id/tv1"
+            android:text="Latitude"
+            android:textSize="15sp"
+            android:gravity="center"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.5"
-            android:id="@+id/tv2"/>
+            android:id="@+id/tv2"
+            android:text="Longitude"
+            android:textSize="15sp"
+            android:gravity="center"/>
 
     </LinearLayout>
 
@@ -27,7 +33,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.8"
-        android:id="@+id/frag"/>
+        android:id="@+id/frag"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,12 +45,16 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.8"
-            android:id="@+id/tv3"/>
+            android:id="@+id/tv3"
+            android:text="Longitude"
+            android:textSize="20sp"
+            android:gravity="center"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.2"
-            android:id="@+id/btn"/>
+            android:id="@+id/btn"
+            android:background="@drawable/ic_add_location_black_24dp"/>
 
     </LinearLayout>
 
